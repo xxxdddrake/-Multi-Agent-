@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  multi-agent-system:
+    build: .
+    container_name: multi-agent-system
+    ports:
+      - "8000:8000"
